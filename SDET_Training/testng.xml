@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
   <classes>
   <class name="com.training.tests.ViewCourseTest"></class>
-  <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="browserName" value="ie"></parameter>
   <parameter name="appUrl" value="https://courses.ultimateqa.com/users/sign_in"></parameter>
    </classes>
   </test> <!-- Test -->
