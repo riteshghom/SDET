@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57733" started-at="2019-03-26T11:36:23Z" finished-at="2019-03-26T11:37:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57733" started-at="2019-03-26T11:36:23Z" finished-at="2019-03-26T11:37:21Z">
+      <class name="com.training.tests.ViewCourseTest">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.training.tests.ViewCourseTest@1aab78]" name="BeforeSuite" is-config="true" duration-ms="195" started-at="2019-03-26T11:36:23Z" finished-at="2019-03-26T11:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.training.tests.ViewCourseTest@1aab78]" name="automationSetup" is-config="true" duration-ms="17151" started-at="2019-03-26T11:36:23Z" finished-at="2019-03-26T11:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://courses.ultimateqa.com/users/sign_in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationSetup -->
+        <test-method status="PASS" signature="ultimateLoginValidationTest()[pri:0, instance:com.training.tests.ViewCourseTest@1aab78]" name="ultimateLoginValidationTest" duration-ms="39511" started-at="2019-03-26T11:36:40Z" finished-at="2019-03-26T11:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ultimateLoginValidationTest -->
+        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.training.tests.ViewCourseTest@1aab78]" name="automationTeardown" is-config="true" duration-ms="1053" started-at="2019-03-26T11:37:20Z" finished-at="2019-03-26T11:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTeardown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.tests.ViewCourseTest@1aab78]" name="afterSuite" is-config="true" duration-ms="252" started-at="2019-03-26T11:37:21Z" finished-at="2019-03-26T11:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.tests.ViewCourseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
