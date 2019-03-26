@@ -34,6 +34,14 @@
 			<artifactId>htmlunit-driver</artifactId>
 			<version>2.29.0</version>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations -->
+<dependency>
+    <groupId>org.apache.maven.plugin-tools</groupId>
+    <artifactId>maven-plugin-annotations</artifactId>
+    <version>3.6.0</version>
+    <scope>provided</scope>
+</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
